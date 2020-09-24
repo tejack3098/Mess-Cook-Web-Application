@@ -1,0 +1,102 @@
+
+
+.registerbox{
+    width:1000px;
+    height:560px;
+    background: #000;
+    color: #fff;
+    top: 51%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+    
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.registerbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.registerbox input{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.registerbox input[type="text"],input[type="password"],input[type="number"],input[type="email"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline:none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.registerbox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size:  18px;
+    border-radius: 20px;
+}
+
+.registerbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+.registerbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.registerbox a:hover{
+    color: #ffc107;
+}
+
+.col-33{
+    float: left;
+    width: 32%;
+    margin-top: 6px;
+    padding: 5px;
+    
+}
+
+.col-50 {
+    float: left;
+    width: 48.5%;
+    margin-top: 6px;
+     padding: 5px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+

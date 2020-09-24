@@ -1,0 +1,141 @@
+body {
+  margin: auto;
+ background-image: url("mix.jpg");
+  background-color:#996633;
+  height: 660px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  font-family: sans-serif;
+}
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #000;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: #996633;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #996633;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+    height: 35px;
+   background-color: #000;
+   color: white;
+   text-align: center;
+}
+
+
+th, td {
+    font-family: sans-serif;
+ 
+   
+   
+    background-color:  #ffffcc;
+}
+
+
+
+
+table {
+   
+    text-align: center;
+   
+    background-color:  #ffffcc;
+}
+
+.content h2{
+    margin: 0;
+    font-family: cursive;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+
+.content input[type="checkbox"],input[type="number"],select{
+    color: darkred;
+    width: 100%;
+    height: 25px;
+    margin-bottom: 2px;
+    
+}
+.content input[type="number"]{
+    color: darkred;
+    width: 70px;
+    height: 20px;
+    margin-bottom: 2px;
+    
+}
+.content input[type="submit"]{
+    
+    width: 200px;
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size:  18px;
+    border-radius: 20px;
+    
+}
+
+.content input[type="submit"]:hover
+{
+    cursor: pointer;
+    background:  #996633;
+    color: #000;
+}
+
+.srcoll{
+    height: 50px;
+    width: 50px;
+    float: right;
+}
