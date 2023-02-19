@@ -1,5 +1,7 @@
 # Mess Cook Web Application
 
+## Project-Based-Learning(PBL), Pillai College of Engineering : Winning Project 
+
 The proposed solution is a web-based application for a mess cook and manager to manage the meal schedule and ingredients for the students. The system architecture follows a client-server model, with a client-side developed using HTML, CSS, and JavaScript, and the server-side developed using PHP and MySQL. The user interface is designed to be simple and user-friendly, with a login page, a main dashboard, and a feedback section.
 
 The application allows the cook to register and log in to the system to create a schedule for the week, including all three meals of the day, and select the number of students who will be present for each meal. The list of required ingredients for each meal is displayed separately for the whole week. The manager can access the feedback section and suggest improvements.
